@@ -1,0 +1,20 @@
+SPEECH DENOISING - BiLSTM MASK ESTIMATOR v7
+
+Files tested: 824
+Train sequences: 12000
+Validation sequences: 1500
+Epochs: 30
+Hidden units: 256
+FC units: 512
+STFT: 512/384/512
+Sequence length: 100
+Compression: 0.50
+Round-trip SNR: Inf dB
+Oracle SI-SDR: 25.970 dB
+
+SNR: 8.450 -> 16.630 (+8.180 dB)
+SI-SDR: 8.449 -> 16.720 (+8.271 dB)
+SegSNR: 1.519 -> 7.827 (+6.308 dB)
+Oracle SI-SDR: 19.706 dB
+Mean mask: 0.5264
+Training time: 59.44 minutes
